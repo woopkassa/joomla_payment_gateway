@@ -17,5 +17,5 @@ Woopkassa payment gateway for Joomla CMS as a module.
 Имя сервиса: test_merch_invoice
 ```
 
-10. Можно работать
+8. Можно работать
 
