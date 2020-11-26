@@ -62,7 +62,7 @@ class WooppaySoapClient
 	}
 
 
-	public function cash_getOperationData(CashGetOperationDataRequest $data)
+	public function GetOperationData(CashGetOperationDataRequest $data)
 	{
 		return $this->cash_getOperationData($data);
 	}
