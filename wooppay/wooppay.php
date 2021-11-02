@@ -428,7 +428,7 @@ class plgVmPaymentWooppay extends vmPSPlugin
 
 		$operation = $operation_data->response->records['0'];
 
-		if ($operation->status != WooppayOperationStatus::OPERATION_STATUS_DONE || $operation->status != WooppayOperationStatus::OPERATION_STATUS_WAITING) {
+		if ($operation->status != WooppayOperationStatus::OPERATION_STATUS_DONE && $operation->status != WooppayOperationStatus::OPERATION_STATUS_WAITING) {
 			//позволим Wooppay слать запрос, пока не получим нужный статус
 			return null;
 		}
